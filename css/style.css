@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: rgb(225, 236, 153);
+}
+header {
+
+    min-height: 100px;
+    height: 15vh;
+}
+nav {
+    background-color: rgb(228, 216, 216);
+    min-height: 100px;
+    height: 15vh;
+    position: relative;
+}
+nav #logo {
+    /*
+    margin-left: 15px;
+    margin-top: 10px;*/
+    position: absolute;
+    top: 10%;
+    transform: translate();
+}
