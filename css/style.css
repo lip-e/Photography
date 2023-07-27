@@ -1,12 +1,19 @@
 @charset "UTF-8";
 
+:root {
+    --cor1: #0B0029;
+    --cor2: #201442;
+    --cor3: #392375;
+    --cor4: #1F0075;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 body {
     height: 100vh;
-    background-color: rgb(225, 236, 153);
+    background-color: var(--cor1);
 }
 header {
 
@@ -15,7 +22,7 @@ header {
     width: 100vw;
 }
 nav {
-    background-color: rgb(228, 216, 216);
+    background-color: var(--cor2);
     min-height: 100px;
     max-height: 170px;
     height: 15vh;
@@ -50,22 +57,37 @@ div > a {
 }
 nav a:hover {
 
-    color:red;
+    color:#1c0068;
 }
 /* main */
 main {
-    background-color:blueviolet;
     height: 85vh;
 }
 .divisao {
-    width: 33vw;
+    width: 32vw;
     height: 85vh;
-    background-color: aquamarine;
     display: block;
     float: left;
-    border: 2px solid black;
     box-sizing: border-box;
 }
-.divisao1 {
-    margin-left: 4px;
+#land1 {
+    height: 510px;
+    border-radius: 10px;
+}
+#land2 , #land3 {
+    height: 510px;
+    border-radius: 10px;
+}
+#land4{
+
+    height: 416px;
+    border-radius: 10px;
+}
+#land5 {
+    height: 468px;
+    border-radius: 10px;
+}
+#land6 {
+    height: 400px;
+    border-radius: 10px;
 }
