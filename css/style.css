@@ -17,13 +17,32 @@ nav {
     background-color: rgb(228, 216, 216);
     min-height: 100px;
     height: 15vh;
-    position: relative;
+
 }
+
 nav #logo {
-    /*
-    margin-left: 15px;
-    margin-top: 10px;*/
-    position: absolute;
-    top: 10%;
-    transform: translate();
+    
+
+    margin-left: 10px;
+    position: relative;
+    top: 15px;
+
+
+}
+nav div#menu {
+
+    margin-left: 20%;
+}
+nav a.menu {
+    color:black;
+    text-decoration: none;
+    position: relative;
+
+    padding: 30px;
+    box-sizing: border-box;
+    bottom: 50px;
+}
+nav a.menu:hover {
+
+    color:red;
 }
