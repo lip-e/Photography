@@ -64,6 +64,7 @@ main {
     height: 85vh;
 }
 .container {
+    margin-top: 20px;
     gap: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -75,6 +76,8 @@ main {
 }
 .landscape1 {
 
+    position: relative;
+    bottom: 30px;
     width: 20rem;
     height: 711px;
     border-radius: 10px;
