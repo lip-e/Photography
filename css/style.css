@@ -63,31 +63,35 @@ nav a:hover {
 main {
     height: 85vh;
 }
-.divisao {
-    width: 32vw;
-    height: 85vh;
-    display: block;
-    float: left;
-    box-sizing: border-box;
+.container {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
 }
-#land1 {
-    height: 510px;
-    border-radius: 10px;
-}
-#land2 , #land3 {
-    height: 510px;
-    border-radius: 10px;
-}
-#land4{
+.box {
+    width: 20rem;
 
-    height: 416px;
+}
+.landscape1 {
+
+    width: 20rem;
+    height: 711px;
     border-radius: 10px;
 }
-#land5 {
-    height: 468px;
+.landscape4 {
+    
+    width: 20rem;
+    height:533px;
     border-radius: 10px;
 }
-#land6 {
-    height: 400px;
+.landscape5 {
+    width: 20rem;
+    height: 600px;
+    border-radius: 10px;
+}
+.landscape6 {
+    width: 20rem;
+    height: 563px;
     border-radius: 10px;
 }
